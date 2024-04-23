@@ -15,7 +15,7 @@
 #define CONST_STEPS 64
 
 using namespace std;
-const string FILE_NAME = "../large_cycle_CAs/count_" + to_string(CA_COUNT) + "_ca_length_" + to_string(BLOCK_SIZE) + ".json";
+const string FILE_NAME = "./large_cycle_CAs/count_" + to_string(CA_COUNT) + "_ca_length_" + to_string(BLOCK_SIZE) + ".json";
 
 int keys[KEY_COUNT][BLOCK_SIZE + 1];
 int linearCA[BLOCK_SIZE];
