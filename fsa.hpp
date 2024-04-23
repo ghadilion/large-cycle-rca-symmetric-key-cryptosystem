@@ -157,20 +157,3 @@ bitset<BLOCK_SIZE> prevConf(bitset<BLOCK_SIZE> conf, int ruleVector[])
 
   return prevConf;
 }
-
-// void printEdges (unordered_map<string, string> edges) {
-//   cout << endl;
-//   for (auto it : edges) {
-//     cout << it.first << " -> " << it.second << endl;
-//   }
-// }
-
-// unordered_map<string, string> buildFsa (vector<int> ruleVector, bool isPeriodic = false) {
-//   int size = ruleVector.size();
-//   unordered_map<string, string> edges;
-//   for(uint64_t confValue = 0; confValue < (1 << size); ++confValue) {
-//     string conf = bitset<64>(confValue).to_string();
-//     edges[conf] = nextConf(conf, ruleVector, isPeriodic);
-//   }
-//   return edges;
-// }
